@@ -118,6 +118,7 @@ a {
 .problem-wrap {
     color: #007765;
     text-align: center;
+    width: 1107px;
 }
 .problem-title {
     font-size: 64px;
@@ -151,3 +152,37 @@ a {
     margin-bottom: 0;
 }
 /* Hero END */
+
+/* Ppc START */
+.s-ppc {
+    background-color: #ffffff;
+}
+.ppc-wrap {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    width: 1110px;
+}
+.ppc-title {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.ppc-img-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 48px;
+}
+.ppc-image img {
+    width: 115px;
+    height: 115px;
+}
+.ppc-description {
+    font-size: 32px;
+}
+.ppc-desc {
+    font-size: 32px;
+}
+/* Ppc END */
