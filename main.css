@@ -186,3 +186,51 @@ a {
     font-size: 32px;
 }
 /* Ppc END */
+
+/* Team START */
+.s-team {
+    background-color: #eeeeee;
+    padding-top: 58px;
+    padding-bottom: 84px;
+}
+.team-topic {
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+}
+.team-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.team-item {
+    max-width: 350px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.team-icon img {
+    width: 168px;
+    height: 168px;
+    margin-bottom: 12px;
+}
+.team-title {
+    font-size: 24px;
+    color: #007765;
+}
+.team-desc {
+    font-size: 18px;
+}
+/* Team END */
+
+/* Footer START */
+.site-footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 62px;
+    font-size: 18px;
+    text-align: center;
+}
+/* Footer END */
