@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-spen {
+span {
     padding-top: 75px;
     margin-top: -75px;
     display: inline-block;
@@ -97,6 +97,7 @@ spen {
 .menu ul a:hover {
     color: black;
 }
+
 /* Header END */
 
 /* Jumbotron START */
@@ -246,7 +247,52 @@ spen {
     display: flex;
 }
 .text-copyright {
-    width: 540px;
+    max-width: 540px;
     height: 64px;
 }
 /* Footer END */
+
+@media screen and (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+    .jumbotron-title {
+        font-size: 42px;
+    }
+    .problem-title {
+        font-size: 34px;
+    }
+    .problem-desc p {
+        font-size: 16px;
+    }
+    .hero-title {
+        font-size: 34px;
+    }
+    .ppc-title {
+        font-size: 34px;
+    }
+    .ppc-description {
+        font-size: 16px;
+    }
+    .ppc-img-desc {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ppc-image {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .ppc-desc {
+        font-size: 16px;
+    }
+    .team-topic {
+        font-size: 34px;
+    }
+    .team-wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .site-footer {
+        font-size: 12px;
+    }
+}
